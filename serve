@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/gregrperkins/Desktop/meetingizer/meeting-minder
+open http://localhost:8000/meeting.html
+python -m SimpleHTTPServer & disown
